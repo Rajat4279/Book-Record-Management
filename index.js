@@ -6,18 +6,18 @@ const port = 8081;
 
 app.use(express.json());
 
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
     res.status(200).json({
-        message:"Server is up and running."
+        message: "Server is up and running."
     })
 });
 
-app.get("*",(req,res)=>{
+app.get("*", (req, res) => {
     res.status(404).json({
-        message:"This route doesn't exist."
+        message: "This route doesn't exist."
     })
 })
 
-app.listen(port,()=>{
+app.listen(port, () => {
     console.log(`Server is running at port ${port}`);
 });

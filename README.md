@@ -6,26 +6,33 @@ This is Book Record Management Api Backend for the management of record and book
 
 ## /users
 GET: List all the users.
+
 POST: Create a new user.
 
 ## /users/{id}
 GET: Get the user by id.
+
 PUT: Update the user by id.
+
 DELETE: Delete the user by id (Check if he/she has an issued book) (Is there any fine need to be paid).
 
 ## /users/subscription-details/{id}
 GET: Get user subscription details.
 
 1.) Date of Subscription.
+
 2.) Date till subscription valid.
+
 3.) Fine if any.
 
 ## /books
 GET: Get all the books of library.
+
 POST: Add a new book.
 
 ## /books/{id}
 GET: Get a book by id.
+
 PUT: Update a book by id.
 
 ## /books/issued
@@ -36,7 +43,9 @@ GET: All issued books with fine.
 
 # Subscription Type
 Basic (3 months)
+
 Standard (6 months)
+
 Premium (12 months)
 
 If the subscription date is 11/07/23
