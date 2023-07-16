@@ -5,14 +5,14 @@ This is Book Record Management Api Backend for the management of record and book
 # Routes and End-Points
 
 ## /users
-GET: List all the users.
+GET: List all the users. ✅
 
-POST: Create a new user.
+POST: Create a new user. ✅
 
 ## /users/{id}
-GET: Get the user by id.
+GET: Get the user by id. ✅
 
-PUT: Update the user by id.
+PUT: Update the user by id. ✅
 
 DELETE: Delete the user by id (Check if he/she has an issued book) (Is there any fine need to be paid).
 
