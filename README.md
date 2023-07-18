@@ -20,7 +20,7 @@ DELETE: Delete the user by id (Check if he/she has an issued book) (Is there any
 
 ### /users/subscription-details/{id}
 
-GET: Get user subscription details.
+GET: Get user subscription details. ✅
 
 1.) Date of Subscription.
 
@@ -32,21 +32,21 @@ GET: Get user subscription details.
 
 GET: Get all the books of library. ✅
 
-POST: Add a new book.
+POST: Add a new book. ✅
 
 ### /books/{id}
 
 GET: Get a book by id. ✅
 
-PUT: Update a book by id.
+PUT: Update a book by id. ✅
 
 ### /books/issued/by-user
 
-GET: List all issued books.
+GET: List all issued books. ✅
 
 ### /books/issued/withFine
 
-GET: All issued books with fine.
+GET: All issued books with fine. ✅
 
 ## Subscription Type
 
