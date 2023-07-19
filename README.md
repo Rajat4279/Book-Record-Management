@@ -2,6 +2,10 @@
 
 This is Book Record Management Api Backend for the management of record and books.
 
+## Postman Documentation
+
+Link: https://web.postman.co/workspace/7a39f9a0-1048-43e2-8419-91d194310d5b/documentation/25450374-3fca7d2d-dfcd-4730-a5da-5a4ffffe9b51
+
 ## Routes and End-Points
 
 ### /users
