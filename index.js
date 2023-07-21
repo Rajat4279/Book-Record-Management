@@ -1,8 +1,7 @@
 const express = require("express");
-
+const DB_Connection = require("./dbConnection");
 const dotenv = require("dotenv");
 
-const DB_connection = require("./dbConnection");
 
 //importing routes
 const usersRouter = require("./routes/users");
@@ -12,7 +11,7 @@ dotenv.config();
 
 const app = express();
 
-DB_connection();
+DB_Connection();
 
 const port = 8081;
 
